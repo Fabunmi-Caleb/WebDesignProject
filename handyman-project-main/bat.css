@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    height: 35px;
+}
+
+nav svg{
+    margin-left: 95px;
+    /* border: 1px solid red; */
+    width: 176px;
+    height: 30px;
+}
+
+nav .svg-container{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    /* border: 1px solid blue; */
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+    font-weight: 600;
+    position: relative;
+    right: 40px;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav a:nth-child(3){
+    color: #0d7a5f;
+    border: 1px solid #0d7a5f;
+    border-radius: 9px;
+    padding: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+nav a:nth-child(3):hover{
+    text-decoration: none;
+    color: white;
+    background-color: #0d7a5f;
+    border-color: white;
+    transition: all 0.7s;
+}
+
+nav .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.section-one img{
+    height: 425px;
+    width: 100%;
+}
+
+.section-one p{
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-left: 500px;
+    position: relative;
+    bottom: 230px;
+}
+
+.section-two{
+    border: 1px solid yellow;
+}
+
+.section-two h1{
+    text-align: center;
+    font-weight: bold;
+    color: #022022;
+}
+
+
+footer{
+    /* border: 1px solid magenta; */
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    background-color: #67727e;
+}
+
+.footer-part-one{
+    display: flex;
+    /* border: 1px solid saddlebrown; */
+    font-size: 20px;
+    /* margin-top: 50px; */
+    padding-top: 40px;
+    background-color: #67727e;
+}
+
+.footer-part-one p{
+    margin-left: 80px;
+    margin-top: 5px;
+    color: #b1b9c3;
+}
+
+.footer-part-one span{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 7px;
+}
+
+.footer-part-one i{
+    position: relative;
+    top: 3px;
+    padding-left: 14px;
+    color: white;
+}
+
+.footer-part-one i:hover{
+    transform: scale(1.1,1.1);
+    color: black;
+    transition: all 0.6s;
+}
+
+.footer-discover{
+    /* border: 1px solid violet; */
+    margin-top: 30px;
+    width: 180px;
+}
+
+.footer-discover p, .footer-company p{
+    font-size: 20px;
+    color:#b1b9c3;
+}
+
+.footer-discover a, .footer-company a{
+    display: block;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.footer-company{
+    /* border: 1px solid firebrick; */
+    margin-top: 30px;
+}
+
+.footer-download{
+    /* border: 1px solid darkcyan; */
+    font-size: 20px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.footer-download p:nth-child(1){
+    color: #b1b9c3;
+}
+
+.footer-download p:nth-child(2){
+    color: white;
+}
+
+.footer-download span{
+    display: flex;
+    justify-content: center;
+}
+
+.download-buttons{
+    width: 130px;
+    margin-top: 5px;
+    margin-right: 25px;
+}
+
+footer a:hover{
+    text-shadow:  5px 5px 5px black;
+}
+
+.newsChannels{
+    /* margin-top: 90px; */
+    background-color: #f9fafb;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.newsChannels p{
+    margin-top: 20px;
+}
+
+.newsChannels img:nth-child(1){
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+}
+
+#newYorkTimesImage{
+    width: 180px;
+    height: 40px;
+}
+
+/*  */
+
+
+.form1{
+    display: flex;
+    gap: 8rem;
+    /* justify-content: space-around; */
+}
+.earn{
+    display: flex;
+    flex-direction: column;
+}
+
+#firstimageofgirl{
+    width: 110%;
+    padding: 0px 25px; 
+}
+#stateSelect{
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#categorySelect{
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+#cost{
+    font-size: 30px;
+    font-weight: bold;
+}
+#getstart{
+    padding: 10px 10px;
+    border: 1px solid;
+    background-color: #0d7a5f;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    /* text-shadow: 2px 2px 5px rgb(1, 37, 1); */
+}
+#getstart:hover{
+    cursor:pointer;
+    background-color:#043e2f;
+}
+#already{
+    text-align: center;
+}
+#signin{
+    text-decoration: none;
+    color: #0d7a5f;
+}
+.with-vertical-line::before {
+    content: "";
+    display: inline-block;
+    border-left: 1px solid #000; /* Adjust the width and color as needed */
+    height: 50px; /* Adjust the height of the vertical line */
+    margin-right: 10px; /* Adjust the spacing between the text and the line */
+}
+#ikea{
+    width: 110px;
+}
+
+.Partnered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.hrr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#flexiblehrcircle{
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    background-color: #0d7a5f;
+
+}
+#flexiblehr{
+   background-color: #0d7a5f;
+   border-radius: 100px; 
+   width: 6.7%;
+   height: 3px;
+}
+.flexiblework{
+    text-align: center;
+}
+#flexibleh1{
+    color: #022022;
+}
+.besetgrow{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+}
+#besetgrowimg{
+    width: 50px;
+}
+.whatistask{
+    display: flex;
+    gap: 2rem;
+    margin-left: 30px;
+}
+#whatistaskimg{
+    width: 750px;
+}
+#getting{
+    color: #022022;
+    text-align: center;
+}
+.besetgrow6{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+}
+.quotesection{
+    display: flex;
+    align-items: center;
+}
+#womansmiling{
+    width: 800px;
+    margin-right: 30px;
+}
+.quote{
+    margin-left: 35px;
+}
+.questions{
+    display: flex;
+    gap: 10rem;
+    margin-left: 50px;
+}
+#link{
+    text-decoration: none;
+    color: #0d7a5f;
+}
+.readytomakemoney{
+    background-image: url(/images/firstbgimage.jpg);
+    background-size: cover;
+    text-align: center;
+}
+#ready{
+    color: #022022;
+    font-size: 40px;
+}
+#start{
+    color: white;
+    text-decoration: none;
+    background-color: #0d7a5f;
+    border: 1px solid;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#start:hover{
+    cursor:pointer;
+    background-color:#043e2f;
+}
+.lastpart{
+    background-color: #f9fafb;
+    display: flex;
+    text-align: center;
+    gap: 4rem;
+    justify-content: center;
+}
+#britco2{
+    color: #b1b9c3;
+}
