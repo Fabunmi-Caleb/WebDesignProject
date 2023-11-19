@@ -38,10 +38,10 @@ nav a{
 }
 
 nav a:hover{
-    text-decoration: underline;
+    color: #0d7a5f;
 }
 
-nav a:nth-child(3){
+nav a:nth-child(2){
     color: #0d7a5f;
     border: 1px solid #0d7a5f;
     border-radius: 9px;
@@ -50,7 +50,7 @@ nav a:nth-child(3){
     padding-right: 18px;
 }
 
-nav a:nth-child(3):hover{
+nav a:nth-child(2):hover{
     text-decoration: none;
     color: white;
     background-color: #0d7a5f;
@@ -144,7 +144,7 @@ nav .nav-links{
 .rowOne, .rowTwo, .rowThree{
     display: flex;
     justify-content: space-evenly;
-    /* margin-top: 40px; */
+    margin-top: 40px;
 }
 
 .newsChannels{

@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow-y: hidden; */
+    font-family: 'Inter', sans-serif;
+}
+
+
+body{
+    background-image: url("signupBackground.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    border: 1px solid white;
+    border-radius: 16px;
+    position: relative;
+    top: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 300px;
+}
+
+svg{
+    width: 272px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.buttons{
+    width: 326px;
+    height: 43px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-weight: 800;
+    border-radius: 1000px;
+}
+
+#button-one{
+    background-color: rgb(13, 122, 95);
+    color: white;
+    border: none;
+}
+
+#button-one:hover{
+    background-color: rgb(8, 83, 65);
+}
+
+#button-two{
+    color: rgb(13, 122, 95);
+    background-color: white;
+    border: 1px solid rgb(13, 122, 95);
+    margin-bottom: 30px;
+}
+
+#button-two:hover{
+    color: rgb(8, 83, 65);
+    border-color: rgb(8, 83, 65);
+}
+
+p{
+    font-size: 14px;
+    text-align: center;
+}
+
+p a{
+    text-decoration: none;
+    color: rgb(13, 122, 95);
+    font-weight: 600;
+}
+
+p a:hover{
+    text-decoration: underline;
+}
